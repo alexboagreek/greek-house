@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Blaka';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../assets/fonts/blaka-v3-latin-regular.woff2') format('woff2'), 
+         url('../assets/fonts/blaka-v3-latin-regular.woff') format('woff'); 
+  }
 
 html {
     box-sizing: border-box;
