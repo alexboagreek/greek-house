@@ -4,6 +4,7 @@
 
 .product__photo {
     max-width: 470px;
+    border-radius: 8px;
 }
 .product:nth-child(odd) .product__container {
     flex-direction: row-reverse;
