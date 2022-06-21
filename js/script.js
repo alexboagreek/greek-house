@@ -144,3 +144,29 @@ for (let i = 0; i < productBtn.length; i++) {
 }
 
 
+try {
+
+  const mute = document.querySelector('.mute__checkbox');
+  const audio = new Audio('../assets/audio/Танцы - Сиртаки [греческий танец] (mp3store.cc).mp3');
+  
+  const checkMute = () => {
+      
+      if(mute.checked) {
+          audio.play().catch(() => {
+              mute.checked = false;
+          });
+      } else {
+          audio.pause();
+      }
+  };
+
+  if (mute) {
+      setTimeout(checkMute, 2000)
+  }
+
+  mute.addEventListener('change', checkMute);
+
+} catch {
+  console.log('На данной странице нет музыки');
+}
+
