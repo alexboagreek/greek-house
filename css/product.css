@@ -5,6 +5,8 @@
 .product__photo {
     max-width: 470px;
     border-radius: 8px;
+    box-shadow: 0px 0px 10px var(--color-primary);
+    transition: box-shadow 0.2s;
 }
 .product:nth-child(odd) .product__container {
     flex-direction: row-reverse;

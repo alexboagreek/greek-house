@@ -1,9 +1,9 @@
 .hero {
-    background-image: url('../assets/img/pixabay.jpg');
+    background-image: url('../assets/img/min-pixabay.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 220px 0 120px 0;
+    padding: 320px 0 120px 0;
     color: #fff;
     margin-bottom: 60px;
 }

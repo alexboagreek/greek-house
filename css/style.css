@@ -1,11 +1,13 @@
 @import 'normalize.css';
 @import 'default.css';
+@import 'root.css';
 @import 'header.css';
 @import 'hero.css';
 @import 'product.css';
 @import 'contacts.css';
 @import 'footer.css';
 @import 'media.css';
+@import 'mute.css';
 
 
 .modal {
